@@ -1,6 +1,6 @@
 <h1>💬 Chat with Soul AI</h1>
 
-🧠 Project Overview
+<h3>🧠 Project Overview</h3> 
 
 Chat with Soul AI is a responsive web application that allows users to chat with an AI model, provide feedback on responses, and view past conversations with ratings and comments.
 
@@ -134,7 +134,8 @@ Data Handling	Local JSON (sample data provided in stub.json)
 
 1️⃣ Clone the repository
 git clone https://github.com/yourusername/chat-with-soul-ai.git
-cd chat-with-soul-ai
+
+cd projct
 
 2️⃣ Install dependencies
 npm install
@@ -204,6 +205,7 @@ Feel free to use and modify it for learning or development purposes.
 
 Developed by: Dhamodharan S
 Full Stack Web Developer Intern
+
 📧 Email: dhamodharans206@gmail.com
 
 Deployment Link:
