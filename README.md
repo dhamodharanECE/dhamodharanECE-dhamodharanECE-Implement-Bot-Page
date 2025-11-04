@@ -12,7 +12,7 @@ The app is designed to deliver an interactive experience with clean UI, smooth a
 
 Users can chat with the Soul AI model in a conversational interface.
 
-Each AI response is displayed using a <p> tag.
+Each AI response is displayed using a tag.
 
 If the query doesn’t match any known question, AI replies with:
 
