@@ -155,12 +155,17 @@ npm start
 http://localhost:3000
 
 🌐 Routes
+
 Route	Description
+
 /	Chat with Soul AI
+
 /history	View saved conversations
+
 /feedback	View all feedback with filters
-💾 Sample Data Structure (stub.json)
+
 ```base
+💾 Sample Data Structure (stub.json)
 {
   "chats": [
     {
@@ -199,6 +204,24 @@ Example Vercel deployment steps:
 npm install -g vercel
 
 vercel
+
+<h2>UI Design </h2>
+
+1.BOT-Hero Section:
+
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/7f893590-abcb-45fb-9bcc-5b744e19132a" />
+
+2.BOT-Conversation:
+
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/617da09d-92d2-46fa-bcf0-24d6b1baaa6b" />
+
+3.Theme-Change:
+
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/3cdde97d-3aac-4de8-ab20-9284fe212db2" />
+
+4.History:
+
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/fc54a9d1-f7f3-46ec-8c07-4577b743dee0" />
 
 <h2>🪪 License</h2>
 
