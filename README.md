@@ -1,12 +1,12 @@
 <h1>💬 Chat with Soul AI</h1>
 
-<h3>🧠 Project Overview</h3> 
+<h2>🧠 Project Overview</h2> 
 
 Chat with Soul AI is a responsive web application that allows users to chat with an AI model, provide feedback on responses, and view past conversations with ratings and comments.
 
 The app is designed to deliver an interactive experience with clean UI, smooth animations, and proper state management. Users can engage in multiple conversations, rate the AI at the end, and even revisit their past chats with all associated feedback.
 
-🚀 Features
+<h2>🚀 Features</h2> 
 
 💭 Core Chat Functionality
 
@@ -18,7 +18,7 @@ If the query doesn’t match any known question, AI replies with:
 
 “Sorry, Did not understand your query!”
 
-👍 Feedback System
+<h2>👍 Feedback System</h2>
 
 Hover over any AI response to reveal thumbs up / thumbs down buttons for quick feedback.
 
@@ -26,7 +26,7 @@ At the end of the conversation, users can provide:
 
 ⭐ A rating out of 5 (stars or Likert scale).
 
-📝 Subjective written feedback.
+<h2>📝 Subjective written feedback.</h2>
 
 💾 Conversation History
 
@@ -36,13 +36,14 @@ Saved conversations can be revisited through the /history route.
 
 Each saved chat retains the feedback and rating associated with it.
 
-📂 Feedback View
+<h2>📂 Feedback View</h2>
 
 A separate section allows users to view all feedback points across different conversations.
 
 Includes filtering options based on ratings.
 
-🖼️ UI & Design
+<h2>🖼️ UI & Design</h2>
+
 Layout
 
 Clean and modern UI that matches the provided Figma design reference.
@@ -61,8 +62,10 @@ Fully responsive and adapts seamlessly to mobile, tablet, and desktop views.
 
 Layout adjusts dynamically for smaller screens with optimized spacing and typography.
 
-🧩 Component Overview
+<h2>🧩 Component Overview</h2>
+
 Component	Description
+
 ChatBox	Displays real-time conversation between the user and Soul AI.
 
 FeedbackButtons	Floating like/dislike icons visible on hover over AI messages.
@@ -74,7 +77,7 @@ HistoryPanel	Lists all saved conversations with timestamp and feedback summary.
 
 FeedbackView	Displays all feedback entries across conversations with rating filters.
 
-🧰 Tech Stack
+<h2>🧰 Tech Stack</h2>
 
 Category	Technology
 
@@ -90,7 +93,7 @@ Icons	Lucide Icons / React Icons
 
 Data Handling	Local JSON (sample data provided in stub.json)
 
-🧪 Functionality Checklist
+<h2>🧪 Functionality Checklist</h2>
 
 ✅ Design & Layout
 
@@ -132,10 +135,11 @@ Data Handling	Local JSON (sample data provided in stub.json)
 
  Meaningful commit messages
 
-1️⃣ Clone the repository
-git clone https://github.com/yourusername/chat-with-soul-ai.git
+<h2>📘 Clone the repository</h2>
 
-cd projct
+1️⃣ git clone https://github.com/yourusername/chat-with-soul-ai.git
+
+2️⃣cd projct
 
 2️⃣ Install dependencies
 npm install
@@ -169,7 +173,7 @@ Route	Description
   ]
 }
 
-📘 Evaluation Notes
+<h2>📘 Evaluation Notes</h2>
 
 ✅ Placeholder in chat input: "Message Bot AI…"
 
@@ -185,7 +189,7 @@ Route	Description
 
 ✅ Saved chats route → /history
 
-🧾 Deployment
+<h2>🧾 Deployment</h2>
 
 You can deploy your project easily on Vercel, Netlify, or GitHub Pages.
 
@@ -195,19 +199,19 @@ npm install -g vercel
 
 vercel
 
-🪪 License
+<h2>🪪 License</h2>
 
 This project is licensed under the MIT License.
 
 Feel free to use and modify it for learning or development purposes.
 
-👨‍💻 Author
+<h2>👨‍💻 Author</h2>
 
 Developed by: Dhamodharan S
 Full Stack Web Developer Intern
 
 📧 Email: dhamodharans206@gmail.com
 
-Deployment Link:
+<h2>Deployment Link:</h2>
 ```base
 https://dhamodharan-ece-dhamodharan-ece-imp.vercel.app/
