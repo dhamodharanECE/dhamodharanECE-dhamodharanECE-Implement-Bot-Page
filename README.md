@@ -160,6 +160,7 @@ Route	Description
 /history	View saved conversations
 /feedback	View all feedback with filters
 💾 Sample Data Structure (stub.json)
+```base
 {
   "chats": [
     {
@@ -172,7 +173,7 @@ Route	Description
     }
   ]
 }
-
+```
 <h2>📘 Evaluation Notes</h2>
 
 ✅ Placeholder in chat input: "Message Bot AI…"
@@ -212,6 +213,6 @@ Full Stack Web Developer Intern
 
 📧 Email: dhamodharans206@gmail.com
 
-<h2>Deployment Link:</h2>
+Deployment Link:
 ```base
-https://dhamodharan-ece-dhamodharan-ece-imp.vercel.app/
+ https://dhamodharan-ece-dhamodharan-ece-imp.vercel.app/
