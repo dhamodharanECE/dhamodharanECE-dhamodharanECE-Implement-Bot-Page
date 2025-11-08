@@ -143,15 +143,20 @@ https://github.com/yourusername/chat-with-soul-ai.git
 2️⃣cd projct
 
 2️⃣ Install dependencies
+```
 npm install
-
+```
 3️⃣ Run the development server
+```
 npm run dev
-
+```
 4️⃣ Build for production
+```
 npm run build
+```
+```
 npm start
-
+```
 5️⃣ Visit in browser
 ```
 http://localhost:3000
