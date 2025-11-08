@@ -1,14 +1,14 @@
-<h1>💬 Chat with Soul AI</h1>
+# 💬 Chat with Soul AI
 
-<h2>🧠 Project Overview</h2> 
+# 🧠 Project Overview 
 
 Chat with Soul AI is a responsive web application that allows users to chat with an AI model, provide feedback on responses, and view past conversations with ratings and comments.
 
 The app is designed to deliver an interactive experience with clean UI, smooth animations, and proper state management. Users can engage in multiple conversations, rate the AI at the end, and even revisit their past chats with all associated feedback.
 
-<h2>🚀 Features</h2> 
+# 🚀 Features 
 
-💭 Core Chat Functionality
+# 💭 Core Chat Functionality
 
 Users can chat with the Soul AI model in a conversational interface.
 
@@ -18,7 +18,7 @@ If the query doesn’t match any known question, AI replies with:
 
 “Sorry, Did not understand your query!”
 
-<h2>👍 Feedback System</h2>
+# 👍 Feedback System
 
 Hover over any AI response to reveal thumbs up / thumbs down buttons for quick feedback.
 
@@ -26,9 +26,9 @@ At the end of the conversation, users can provide:
 
 ⭐ A rating out of 5 (stars or Likert scale).
 
-<h2>📝 Subjective written feedback.</h2>
+# 📝 Subjective written feedback.
 
-💾 Conversation History
+# 💾 Conversation History
 
 Conversations are automatically saved upon clicking the Save button (type="button").
 
@@ -36,15 +36,15 @@ Saved conversations can be revisited through the /history route.
 
 Each saved chat retains the feedback and rating associated with it.
 
-<h2>📂 Feedback View</h2>
+# 📂 Feedback View
 
 A separate section allows users to view all feedback points across different conversations.
 
 Includes filtering options based on ratings.
 
-<h2>🖼️ UI & Design</h2>
+# 🖼️ UI & Design
 
-Layout
+# Layout
 
 Clean and modern UI that matches the provided Figma design reference.
 
@@ -56,20 +56,19 @@ Ask Button: Must have type="submit".
 
 Save Button: Must have type="button".
 
-Responsiveness
+# Responsiveness
 
 Fully responsive and adapts seamlessly to mobile, tablet, and desktop views.
 
 Layout adjusts dynamically for smaller screens with optimized spacing and typography.
 
-<h2>🧩 Component Overview</h2>
+# 🧩 Component Overview
 
-Component	Description
+# Component	Description
 
 ChatBox	Displays real-time conversation between the user and Soul AI.
 
 FeedbackButtons	Floating like/dislike icons visible on hover over AI messages.
-
 
 RatingModal	Allows users to submit star rating and written feedback after chat ends.
 
@@ -77,9 +76,9 @@ HistoryPanel	Lists all saved conversations with timestamp and feedback summary.
 
 FeedbackView	Displays all feedback entries across conversations with rating filters.
 
-<h2>🧰 Tech Stack</h2>
+# 🧰 Tech Stack
 
-Category	Technology
+# Category	Technology
 
 Frontend Framework	React / Next.js
 
@@ -93,7 +92,7 @@ Icons	Lucide Icons / React Icons
 
 Data Handling	Local JSON (sample data provided in stub.json)
 
-<h2>🧪 Functionality Checklist</h2>
+# 🧪 Functionality Checklist
 
 ✅ Design & Layout
 
@@ -135,10 +134,12 @@ Data Handling	Local JSON (sample data provided in stub.json)
 
  Meaningful commit messages
 
-<h2>📘 Clone the repository</h2>
+# 📘 Clone the repository
 
-1️⃣ git clone https://github.com/yourusername/chat-with-soul-ai.git
-
+1️⃣ git clone 
+```
+https://github.com/yourusername/chat-with-soul-ai.git
+```
 2️⃣cd projct
 
 2️⃣ Install dependencies
@@ -152,9 +153,10 @@ npm run build
 npm start
 
 5️⃣ Visit in browser
+```
 http://localhost:3000
-
-🌐 Routes
+```
+# 🌐 Routes
 
 Route	Description
 
@@ -179,7 +181,7 @@ Route	Description
   ]
 }
 ```
-<h2>📘 Evaluation Notes</h2>
+# 📘 Evaluation Notes
 
 ✅ Placeholder in chat input: "Message Bot AI…"
 
@@ -195,7 +197,7 @@ Route	Description
 
 ✅ Saved chats route → /history
 
-<h2>🧾 Deployment</h2>
+# 🧾 Deployment
 
 You can deploy your project easily on Vercel, Netlify, or GitHub Pages.
 
@@ -205,37 +207,45 @@ npm install -g vercel
 
 vercel
 
-<h2>UI Design </h2>
+# UI Design 
 
-1.BOT-Hero Section:
+# BOT-Hero Section:
 
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/7f893590-abcb-45fb-9bcc-5b744e19132a" />
 
-2.BOT-Conversation:
+# BOT-Conversation:
 
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/617da09d-92d2-46fa-bcf0-24d6b1baaa6b" />
 
-3.Theme-Change:
+# Theme-Change:
 
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/3cdde97d-3aac-4de8-ab20-9284fe212db2" />
 
-4.History:
+# History:
 
 <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/fc54a9d1-f7f3-46ec-8c07-4577b743dee0" />
 
-<h2>🪪 License</h2>
+# 🪪 License
 
 This project is licensed under the MIT License.
 
 Feel free to use and modify it for learning or development purposes.
 
-<h2>👨‍💻 Author</h2>
+# 👨‍💻 Author
 
 Developed by: Dhamodharan S
 Full Stack Web Developer Intern
 
-📧 Email: dhamodharans206@gmail.com
+📧 Email: 
+```
+dhamodharans206@gmail.com
+```
+# 🪪 License
 
-Deployment Link:
+This project is licensed under the MIT License.
+
+Feel free to use and modify it for learning or development purposes.
+
+# Deployment Link:
 ```base
- https://dhamodharan-ece-dhamodharan-ece-imp.vercel.app/
+https://dhamodharan-ece-dhamodharan-ece-imp.vercel.app/
