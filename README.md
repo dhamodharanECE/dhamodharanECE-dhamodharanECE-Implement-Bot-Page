@@ -138,7 +138,7 @@ Data Handling	Local JSON (sample data provided in stub.json)
 
 1️⃣ git clone 
 ```
-https://github.com/yourusername/chat-with-soul-ai.git
+git clone https://github.com/yourusername/chat-with-soul-ai.git
 ```
 2️⃣cd projct
 
